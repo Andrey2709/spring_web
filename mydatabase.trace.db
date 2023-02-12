@@ -1,0 +1,36 @@
+2023-01-21 13:23:40 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Таблица "PRODUCT" не найдена
+Table "PRODUCT" not found; SQL statement:
+select product0_.id as id1_0_, product0_.price as price2_0_, product0_.title as title3_0_ from product product0_ [42102-200]
+2023-01-21 13:26:20 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Таблица "PRODUCTS" не найдена
+Table "PRODUCTS" not found; SQL statement:
+select product0_.id as id1_0_, product0_.price as price2_0_, product0_.title as title3_0_ from products product0_ [42102-200]
+2023-01-21 13:38:07 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Таблица "PRODUCT" не найдена
+Table "PRODUCT" not found; SQL statement:
+select product0_.id as id1_0_, product0_.price as price2_0_, product0_.title as title3_0_ from product product0_ [42102-200]
+2023-01-21 13:38:38 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Таблица "PRODUCT" не найдена
+Table "PRODUCT" not found; SQL statement:
+select product0_.id as id1_0_, product0_.price as price2_0_, product0_.title as title3_0_ from product product0_ [42102-200]
+2023-01-21 13:39:05 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Таблица "PRODUCT" не найдена
+Table "PRODUCT" not found; SQL statement:
+select product0_.id as id1_0_, product0_.price as price2_0_, product0_.title as title3_0_ from product product0_ [42102-200]
+2023-01-21 13:45:05 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Таблица "PRODUCT" не найдена
+Table "PRODUCT" not found; SQL statement:
+select product0_.id as id1_0_, product0_.price as price2_0_, product0_.title as title3_0_ from product product0_ [42102-200]
+2023-01-21 13:47:02 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Таблица "PRODUCTS" не найдена
+Table "PRODUCTS" not found; SQL statement:
+select product0_.id as id1_0_, product0_.price as price2_0_, product0_.title as title3_0_ from products product0_ [42102-200]
+2023-01-21 13:47:58 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Таблица "PRODUCTS" не найдена
+Table "PRODUCTS" not found; SQL statement:
+select product0_.id as id1_0_, product0_.price as price2_0_, product0_.title as title3_0_ from products product0_ [42102-200]
+2023-01-21 13:57:32 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Таблица "PRODUCTS" не найдена
+Table "PRODUCTS" not found; SQL statement:
+select product0_.id as id1_0_, product0_.price as price2_0_, product0_.title as title3_0_ from products product0_ [42102-200]
