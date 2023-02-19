@@ -11,13 +11,9 @@ import java.util.Optional;
 
 @Service
 public class ProductService {
-    private List<Optional<Product>> basckets = new ArrayList();
+//    private List<Optional<Product>> basckets = new ArrayList();
     @Autowired
-    private ProductRepository repository;
-
-    public void changeScore(Long id, Integer score) {
-
-    }
+    private  ProductRepository repository;
 
 
     public Optional<Product> findById(Long id) {
@@ -29,10 +25,7 @@ public class ProductService {
         return repository.findAll();
     }
 
-    public List<Optional<Product>> addProduct(Long id) {
-        basckets.add(repository.findById(id));
-        return basckets;
-    }
+
 
 
     public void saveProduct(long id, String title, int price) {

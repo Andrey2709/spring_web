@@ -12,6 +12,8 @@ import java.io.IOException;
 public class ExcemptHendler {
 
 
+
+
     @ExceptionHandler
     public ResponseEntity<ExceptDescript> exemptionNotFound(ResorseNotFoundExecemption e) {
             return  new ResponseEntity<>(new ExceptDescript(e.getMessage(), HttpStatus.NOT_FOUND.value()),HttpStatus.NOT_FOUND);
