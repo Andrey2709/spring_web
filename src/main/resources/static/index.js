@@ -1,20 +1,28 @@
 angular.module('app', []).controller('indexController', function ($scope, $http) {
     const contextPath = 'http://localhost:8084/app';
 
+
+
     $scope.loadProducts = function () {
-        $http.get(contextPath + '/products/all')
+        $http.get(contextPath + '/products/auth/all')
             .then(function (response) {
                 $scope.productList = response.data;
             });
     };
 
- $scope.addProductToBascket = function(productId){
-        $http.get(contextPath + '/products/add/'+ productId)
+ $scope.addProductToBasket = function(productId){
+        $http.get(contextPath + '/basket/put/?id='+ productId)
             .then(function(response){
-
             console.log(response.data)
+                $scope.basketList = response.data
+            });
+    };
 
-                $scope.productListBasket = response.data
+    $scope.deleteProductInBasket = function(productId){
+        $http.get(contextPath + '/basket/delete/inbasket/?id='+ productId)
+            .then(function(response){
+            console.log(response.data)
+                $scope.basketList = response.data
             });
     };
 
